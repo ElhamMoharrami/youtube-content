@@ -9,7 +9,7 @@ public class Calculator {
     
     private static void runConsoleCalculator() {
         Scanner scanner = new Scanner(System.in);
-        double firstNumber, secondNumber, result=0;
+        double firstNumber, secondNumber, result;
         char operator;
 
         System.out.println("Enter first number: ");
